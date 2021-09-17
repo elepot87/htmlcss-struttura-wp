@@ -16,8 +16,11 @@ box-sizing: border-box;
     padding-right: 16px;
 }
 
-.mb-mt-30 {
+.mb-30 {
     margin-bottom: 30px;
+}
+
+.mt-30 {
     margin-top: 30px;
 }
 
@@ -31,4 +34,10 @@ box-sizing: border-box;
 /* Header */
 header {
     background-color: #e579e6;
+}
+
+/* Hero */
+
+section.hero {
+    background-color: #e1d67a;
 }
