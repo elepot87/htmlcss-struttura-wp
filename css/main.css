@@ -1,5 +1,34 @@
+/* General */
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+}
+
+/* Utilities */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mb-mt-30 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Debug element */
+.debug-box {
+    height: 50px;
+    background: rgba(0,0,0,0.25);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+/* Header */
+header {
+    background-color: #e579e6;
 }
