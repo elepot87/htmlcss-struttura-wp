@@ -16,6 +16,14 @@ box-sizing: border-box;
     padding-right: 16px;
 }
 
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -24,11 +32,15 @@ box-sizing: border-box;
     margin-top: 30px;
 }
 
+
+
 .clearfix::after {
     content: " ";
     display: table;
     clear: both;
 }
+
+
 
 /* Debug element */
 .debug-box {
@@ -49,11 +61,25 @@ section.hero {
 }
 
 /* Content */
+section.row.clearfix {
+    background-color: #0086ff;
+}
 
-section.content {
+section.title {
     background-color: #abcfe7;
 }
 
 div.col {
     float: left;
+    background-color: #abcfe7;
 }
+
+
+.col.small {
+    width: 20%;
+}
+
+.col.large {
+    width: 60%;
+}
+
