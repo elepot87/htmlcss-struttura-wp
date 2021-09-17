@@ -24,6 +24,12 @@ box-sizing: border-box;
     margin-top: 30px;
 }
 
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 /* Debug element */
 .debug-box {
     height: 50px;
@@ -40,4 +46,14 @@ header {
 
 section.hero {
     background-color: #e1d67a;
+}
+
+/* Content */
+
+section.content {
+    background-color: #abcfe7;
+}
+
+div.col {
+    float: left;
 }
